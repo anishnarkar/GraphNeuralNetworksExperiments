@@ -36,7 +36,7 @@
 
 ![Figure 3](images/GConv4.png)
 
-Based on the experiments on the cora dataset, GCN operator gave the best resul when 1 hidden layer was present. On introduction of multiple hidden layers, the performance of GAT and GCN operators were similar. GraphConv operator gave the worst result for all the scenarios
+Based on the experiments on the cora dataset, GCN operator gave the best resul when 1 hidden layer was present. On introduction of multiple hidden layers, the performance of GAT and GCN operators were similar. GraphConv operator gave the worst result for all the scenarios. The topmost is the validation accuracy of GCN, then GAT and then Gconv.
 
 #### 2. Impact of Depth:
 
@@ -49,11 +49,11 @@ Based on the experiments on the cora dataset, GCN operator gave the best resul w
 
 
 For both GCN and GAT, adding an additional hidden layer improved the efficiency of the model. However up further increasing the depth, no significant improvements were noted. 
-GraphConv gave the worst result and increasing depth negatively affected the results. 
+GraphConv gave the worst result and increasing depth negatively affected the results. In images we see the validation accuracy for number of hidden layers = 3 ,4 ,5 (Top to bottom respectively). Fluctuations in the accuracy seem to decrease as depth is increased but there is no actual increase in the accuracy. 
 
 #### 3. Impact of dropout
 
-As models were showing signs of overfitting, I decided to change the depth of the dropout. For GCN no significant improvements were observed
+As models were showing signs of overfitting, I decided to change the depth of the dropout. For GCN no significant improvements were observed. For GCN no significant improvements were observed. The improvement observed was from 0.810 to 0.815
 
 #### 4. Improvements over MLP
  
