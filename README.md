@@ -60,8 +60,8 @@ As models were showing signs of overfitting, I decided to change the depth of th
 Massive improvements from .59 for MLP to .81 for GCN were observed
 
 ### Next:
-
-Prepare codes for further complicated models
+1. Repeat experiments for larger datasets to verify findings
+2. Prepare codes for further complicated models
 
 
 ```python
